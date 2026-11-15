@@ -1,0 +1,7 @@
+.env
+*.p8
+audit.log.jsonl
+reports/out/
+__pycache__/
+*.egg-info/
+.venv/

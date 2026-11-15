@@ -1,0 +1,25 @@
+{
+  "enabledMcpjsonServers": ["databridge"],
+  "permissions": {
+    "allow": [
+      "mcp__databridge__snowflake_query",
+      "mcp__databridge__snowflake_list_tables",
+      "mcp__databridge__snowflake_describe_table",
+      "mcp__databridge__databricks_query",
+      "mcp__databridge__databricks_list_tables",
+      "mcp__databridge__databricks_describe_table",
+      "mcp__databridge__crosscheck_metric",
+      "mcp__databridge__quicksight_list_dashboards",
+      "mcp__databridge__quicksight_describe_dashboard",
+      "mcp__databridge__quicksight_get_dashboard_definition",
+      "mcp__databridge__quicksight_list_datasets",
+      "mcp__databridge__quicksight_describe_dataset",
+      "mcp__databridge__quicksight_dataset_refresh_status"
+    ],
+    "ask": [
+      "mcp__databridge__quicksight_create_dashboard",
+      "mcp__databridge__quicksight_update_dashboard",
+      "mcp__databridge__quicksight_refresh_dataset"
+    ]
+  }
+}

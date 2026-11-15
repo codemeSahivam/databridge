@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "databridge": {
+      "type": "stdio",
+      "command": "databridge-mcp",
+      "args": []
+    }
+  }
+}
